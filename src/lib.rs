@@ -121,7 +121,8 @@ fn fannkuch(n: i32) -> (i32, i32) {
 }
 
 #[no_mangle]
-pub unsafe extern fn run_fannkuch(n: i32) {
+pub unsafe extern fn run_fannkuch(n: i32) -> i32 {
     let (checksum, maxflips) = fannkuch(n);
+    checksum
     // log(&format!("{}", checksum));
 }
