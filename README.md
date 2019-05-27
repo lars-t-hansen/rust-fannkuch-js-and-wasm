@@ -25,6 +25,6 @@ js fannkuch: 2719ms
 
 ## Notes on standalone benchmarks
 
-The script fannkuch.js can be run in a JS shell and runs JS fannkuch(11) and prints the time.
+The script js-benchmark.js can be run in a JS shell and runs JS fannkuch(11) and prints the time.
 
-The script benchmark.js can also be run in a JS shell and runs Rust fannkuch(11) by default and prints the time, if rust.wasm is present in the current directory.
+The script wasm-benchmark.js can also be run in a JS shell and runs Rust fannkuch(11) by default and prints the time, if rust.wasm is present in the current directory.
